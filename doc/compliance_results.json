@@ -1,0 +1,502 @@
+[
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Client workshop in Silicon Valley",
+            "Cost Estimate": "$2,400",
+            "Compliance Status": "Compliant",
+            "Violations": [],
+            "Reasons": []
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Sales training in Dubai during peak tourist season",
+            "Cost Estimate": "$2,700",
+            "Compliance Status": "Non-compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Condition": "Object of the Agreement",
+                    "Reason": "The task description does not align with the contractor's obligations to provide software development services. Sales training is not part of software development services."
+                },
+                "Violation 2": {
+                    "Condition": "Financial Terms",
+                    "Reason": "The cost estimate of $2,700 exceeds the single trip budget cap of $2,500. Even with a 20% increase for high-cost locations and a 10% increase for peak seasons, the maximum allowable cost would be $3,300. However, the task description does not specify that it is a high-cost location or a peak season, so these increases may not apply."
+                },
+                "Violation 3": {
+                    "Condition": "Amendment to Travel Expense Policy",
+                    "Reason": "The cost estimate does not appear to take into account the multi-factor adjustments introduced in the amendment. The cost estimate should be calculated as $2,500 * 1.1 (for night and weekend travel) * 1.2 (for seasonal and location-based adjustments) * 1.3 (for urgency and unscheduled travel surge pricing) = $4,158. The provided cost estimate of $2,700 does not match this calculation."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Research trip to remote part of Norway (booked last-minute)",
+            "Cost Estimate": "$3,500",
+            "Compliance Status": "Non-compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Contract Section": "General Travel Provisions",
+                    "Subsection": "Budget Caps",
+                    "Reason": "The cost estimate for the trip exceeds the maximum budget cap of $2,500 for a single trip."
+                },
+                "Violation 2": {
+                    "Contract Section": "Amendment",
+                    "Subsection": "Amendments to Travel Expense Policy",
+                    "Reason": "Even with the application of multi-factor adjustments for night and weekend travel, seasonal and location-based adjustments, and urgency and unscheduled travel surge pricing, the maximum allowable expense would be $4,158. The cost estimate of $3,500 exceeds this limit."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Conference in New York with weekend travel",
+            "Cost Estimate": "$3,000",
+            "Compliance Status": "Non-Compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Contract Section": "General Travel Provisions",
+                    "Subsection": "Budget Caps",
+                    "Description": "The cost estimate for the task exceeds the budget cap of $2,500 for a single trip."
+                },
+                "Violation 2": {
+                    "Contract Section": "Amendment",
+                    "Subsection": "Amendments to Travel Expense Policy",
+                    "Description": "The cost estimate does not comply with the multi-factor adjustment conditions introduced in the amendment. The task involves weekend travel, which should apply a 1.1 multiplier. The adjusted budget cap should be $2,500 * 1.1 = $2,750, but the cost estimate is $3,000."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Team building event in Colorado",
+            "Cost Estimate": "$2,200",
+            "Compliance Status": "Non-compliant",
+            "Violations": [
+                {
+                    "Violation": "Scope of Work",
+                    "Reason": "The task description does not align with the contractor's obligations as per the contract. The contractor is obligated to provide software development services, not to organize team building events."
+                }
+            ]
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Marketing tour across Asia (planned and pre-approved)",
+            "Cost Estimate": "$9,500",
+            "Compliance Status": "Non-compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Contract Section": "General Travel Provisions",
+                    "Specific Term": "Budget Caps",
+                    "Description": "The cost estimate for the task exceeds the maximum budget cap for a single trip which is set at USD 2,500. Even with the potential for a 20% increase for high-cost locations and a 10% increase for seasonal price fluctuations, the maximum allowable budget would be USD 3,300. The cost estimate of USD 9,500 is significantly above this limit."
+                },
+                "Violation 2": {
+                    "Contract Section": "Amendment",
+                    "Specific Term": "Amendments to Travel Expense Policy",
+                    "Description": "Even when considering the complex multi-factor adjustments introduced in the amendment, the cost estimate still exceeds the maximum allowable expense. Using the example provided in the amendment, the maximum allowable expense for a specific scenario would be $4,158. The cost estimate of USD 9,500 is more than double this amount."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Strategy retreat in the Swiss Alps during winter",
+            "Cost Estimate": "$2,400",
+            "Compliance Status": "Compliant",
+            "Violations": [],
+            "Reasons": []
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Field research in Amazon rainforest (urgent and rainy season)",
+            "Cost Estimate": "$3,000",
+            "Compliance Status": "Non-compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Condition": "Contractor Obligations under Object of the Agreement",
+                    "Reason": "The task description involves 'field research' which is not part of the contractor's obligations as per the contract. The contractor is obligated to provide software development services."
+                },
+                "Violation 2": {
+                    "Condition": "Financial Terms under General Travel Provisions",
+                    "Reason": "The cost estimate for the task exceeds the maximum allowable expense. According to the contract, a single trip should not exceed $2,500. Even with the multi-factor adjustments for night and weekend travel, seasonal and location-based adjustments, and urgency and unscheduled travel surge pricing, the maximum allowable expense would be $4,158. However, these adjustments are not applicable in this case as the cost estimate is already above the base limit of $2,500."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Trade show participation in Florida during hurricane season",
+            "Cost Estimate": "$3,500",
+            "Compliance Status": "Non-compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Contract Section": "General Travel Provisions",
+                    "Subsection": "Budget Caps",
+                    "Reason": "The cost estimate of $3,500 exceeds the single trip budget cap of $2,500."
+                },
+                "Violation 2": {
+                    "Contract Section": "Amendment",
+                    "Subsection": "Amendments to Travel Expense Policy",
+                    "Reason": "The cost estimate does not appear to account for the multi-factor adjustments introduced in the contract amendment. The maximum allowable expense for a trip during hurricane season in Florida, considering the multi-factor adjustments (1.1 * 1.2 * 1.3 * $2,500), would be $4,158. However, this would only apply if the travel is also during night or weekend, and is urgent or unscheduled. Without these conditions, the cost estimate is still non-compliant with the original budget cap."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Executive meeting in London during a bank holiday weekend",
+            "Cost Estimate": "$3,500",
+            "Compliance Status": "Non-compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Contract Section": "Financial Terms",
+                    "Specific Term": "Total Fee",
+                    "Reason": "The cost estimate of $3,500 for the task exceeds the total fee of $100,000 stipulated in the contract."
+                },
+                "Violation 2": {
+                    "Contract Section": "General Travel Provisions",
+                    "Specific Term": "Budget Caps",
+                    "Reason": "The cost estimate of $3,500 for the task exceeds the single trip budget cap of $2,500 stipulated in the contract."
+                },
+                "Violation 3": {
+                    "Contract Section": "Amendment",
+                    "Specific Term": "Amendments to Travel Expense Policy",
+                    "Reason": "The cost estimate of $3,500 for the task exceeds the maximum allowable expense of $4,158 calculated using the multi-factor adjustments stipulated in the contract amendment."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Development workshop in Tokyo during Golden Week",
+            "Cost Estimate": "$2,550",
+            "Compliance Status": "Non-compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Contract Section": "General Travel Provisions",
+                    "Subsection": "Budget Caps",
+                    "Reason": "The cost estimate for the trip exceeds the single trip budget cap of $2,500."
+                },
+                "Violation 2": {
+                    "Contract Section": "General Travel Provisions",
+                    "Subsection": "Pre-approval Requirement",
+                    "Reason": "The task description does not indicate that the travel arrangements have been pre-approved."
+                },
+                "Violation 3": {
+                    "Contract Section": "Amendment",
+                    "Subsection": "Amendments to Travel Expense Policy",
+                    "Reason": "The cost estimate does not appear to account for the multi-factor adjustments introduced in the contract amendment. The Golden Week in Tokyo may qualify for seasonal and location-based adjustments, which would increase the allowable expense."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Client visit to manufacturing site in Germany",
+            "Cost Estimate": "$2,800",
+            "Compliance Status": "Non-compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Condition": "Budget Caps",
+                    "Explanation": "The cost estimate for the trip exceeds the budget cap of $2,500 for a single trip as specified in the contract."
+                },
+                "Violation 2": {
+                    "Condition": "Pre-approval Requirement",
+                    "Explanation": "The task description does not mention whether the travel arrangements have been pre-approved as required by the contract."
+                },
+                "Violation 3": {
+                    "Condition": "Amendments to Travel Expense Policy",
+                    "Explanation": "The cost estimate does not seem to take into account the complex multi-factor adjustments introduced in the amendment. The total allowable expense for the scenario, considering the multi-factor adjustments, should not exceed $4,158."
+                }
+            }
+        }
+    },
+    {
+        "Compliance Analysis": {
+            "Task Description": "Product launch prep in California, planned one month in advance",
+            "Cost Estimate": "$7,500",
+            "Compliance Status": "Non-compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Condition": "Financial Terms - Total Fee",
+                    "Reason": "The total fee for the contract is USD 100,000. The cost estimate for this task is $7,500 which is within the total fee. However, the payment stages are not mentioned in the task description."
+                },
+                "Violation 2": {
+                    "Condition": "General Travel Provisions - Budget Caps",
+                    "Reason": "The cost estimate for this task exceeds the single trip budget cap of USD 2,500. Even with the maximum allowable budget increase for high-cost locations (20%) and seasonal price fluctuations (10%), the cost would not exceed USD 3,300."
+                },
+                "Violation 3": {
+                    "Condition": "Amendment - Amendments to Travel Expense Policy - Multi-Factor Adjustment Conditions",
+                    "Reason": "Even when considering the multi-factor adjustments for night and weekend travel (1.1), seasonal and location-based adjustments (1.2), and urgency and unscheduled travel surge pricing (1.3), the maximum allowable expense would be $4,158. The cost estimate for this task is $7,500, which is significantly above this limit."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Annual review meeting in Singapore",
+            "Cost Estimate": "$2,300",
+            "Compliance Status": "Compliant",
+            "Violations": [],
+            "Reasons for Compliance": [
+                "The cost estimate for the task is within the budget cap of $2,500 for a single trip as specified in the 'General Travel Provisions' section of the contract.",
+                "The task description does not indicate any need for additional allowances or adjustments that would exceed the budget cap.",
+                "The task does not involve software development, so it does not violate the 'Software Development Tasks' section of the contract.",
+                "The task does not involve any actions that would violate the 'Confidentiality and Data Protection' section of the contract.",
+                "The task does not involve any actions that would violate the 'Intellectual Property Rights' section of the contract.",
+                "The task does not involve any actions that would violate the 'Compliance with Laws' section of the contract.",
+                "The task does not involve any actions that would violate the 'Amendments' section of the contract."
+            ]
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Investor roadshow in multiple US cities (urgent and pre-approved)",
+            "Cost Estimate": "$10,500",
+            "Compliance Status": "Non-compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Contract Section": "Financial Terms",
+                    "Specific Term": "Total Fee",
+                    "Reason": "The cost estimate for the task exceeds the total fee agreed in the contract which is USD 100,000."
+                },
+                "Violation 2": {
+                    "Contract Section": "General Travel Provisions",
+                    "Specific Term": "Budget Caps",
+                    "Reason": "The cost estimate for the task exceeds the single trip budget cap of USD 2,500, even when considering the maximum allowable multi-factor adjustments."
+                },
+                "Violation 3": {
+                    "Contract Section": "Amendment",
+                    "Specific Term": "Amendments to Travel Expense Policy",
+                    "Reason": "The cost estimate for the task exceeds the maximum allowable expense calculated using the multi-factor adjustments (USD 4,158)."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Site survey for new plant in Iceland during winter",
+            "Cost Estimate": "$3,800",
+            "Compliance Status": "Non-compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Contract Section": "Sections.Object of the Agreement.Contractor Obligations",
+                    "Violation Description": "The task description does not align with the contractor's obligations as stated in the contract. The contractor is obligated to provide software development services, not site surveys."
+                },
+                "Violation 2": {
+                    "Contract Section": "Sections.Financial Terms.Total Fee",
+                    "Violation Description": "The cost estimate for the task exceeds the total fee agreed upon in the contract. The total fee for the contract is USD 100,000, and the cost estimate for this task alone is $3,800."
+                },
+                "Violation 3": {
+                    "Contract Section": "Sections.General Travel Provisions.Budget Caps",
+                    "Violation Description": "The cost estimate for the task exceeds the budget cap for a single trip. The contract specifies that a single trip should not exceed USD 2,500."
+                },
+                "Violation 4": {
+                    "Contract Section": "Amendment.Amendments to Travel Expense Policy.Multi-Factor Adjustment Conditions",
+                    "Violation Description": "The cost estimate does not appear to take into account the multi-factor adjustments to the travel expense policy. The cost estimate should be calculated using the multipliers provided in the amendment."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Negotiation meeting in high-risk area in Middle East (urgent)",
+            "Cost Estimate": "$6,000",
+            "Compliance Status": "Non-Compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Contract Section": "Financial Terms",
+                    "Specific Term": "Total Fee",
+                    "Reason": "The cost estimate for the task exceeds the total fee of USD 100,000 specified in the contract."
+                },
+                "Violation 2": {
+                    "Contract Section": "General Travel Provisions",
+                    "Specific Term": "Budget Caps",
+                    "Reason": "The cost estimate for the task exceeds the single trip budget cap of USD 2,500, even considering the maximum allowable increase due to high-cost location (20%) and seasonal price fluctuations (10%)."
+                },
+                "Violation 3": {
+                    "Contract Section": "Amendment",
+                    "Specific Term": "Amendments to Travel Expense Policy",
+                    "Reason": "The cost estimate for the task exceeds the maximum allowable expense calculated using the multi-factor adjustments (USD 4,158), which includes the night and weekend travel multiplier (1.1), seasonal and location-based adjustments (1.2), and urgency and unscheduled travel surge pricing (1.3)."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Workshop in Las Vegas during a major conference",
+            "Cost Estimate": "$3,000",
+            "Compliance Status": "Non-compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Contract Section": "General Travel Provisions",
+                    "Subsection": "Budget Caps",
+                    "Reason": "The cost estimate for the task exceeds the specified single trip budget cap of USD 2,500."
+                },
+                "Violation 2": {
+                    "Contract Section": "Amendment",
+                    "Subsection": "Amendments to Travel Expense Policy",
+                    "Reason": "The cost estimate does not appear to account for the complex multi-factor adjustments introduced in the contract amendment. The total allowable expense for a specific scenario, such as a major conference in a high-cost location, could potentially be higher than the original budget cap, but this needs to be calculated and justified according to the specified multipliers."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Client meeting in Paris during Fashion Week",
+            "Cost Estimate": "$3,200",
+            "Compliance Status": "Non-Compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Condition": "Budget Caps",
+                    "Explanation": "The cost estimate for the trip exceeds the budget cap of $2,500 for a single trip as specified in the contract."
+                },
+                "Violation 2": {
+                    "Condition": "High-Cost Locations",
+                    "Explanation": "Even with a 20% budget increase for high-cost locations, the total allowable cost would be $3,000 ($2,500 + 20% of $2,500). The cost estimate of $3,200 still exceeds this limit."
+                },
+                "Violation 3": {
+                    "Condition": "Seasonal Price Fluctuations",
+                    "Explanation": "Even with a 10% budget increase for seasonal price fluctuations, the total allowable cost would be $2,750 ($2,500 + 10% of $2,500). The cost estimate of $3,200 still exceeds this limit."
+                },
+                "Violation 4": {
+                    "Condition": "Amendments to Travel Expense Policy",
+                    "Explanation": "Even with the complex multi-factor adjustments to the travel expense policy, the total allowable cost would be $4,158 ($2,500 * 1.1 * 1.2 * 1.3). However, this adjustment is not applicable as the task description does not specify any conditions that would trigger these adjustments (night and weekend travel, urgency and unscheduled travel)."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Engineering team offsite in remote Alaska in January",
+            "Cost Estimate": "$5,000",
+            "Compliance Status": "Non-compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Contract Section": "Financial Terms",
+                    "Specific Term": "Total Fee",
+                    "Reason": "The cost estimate of $5,000 for the task exceeds the total fee of $100,000 stipulated in the contract."
+                },
+                "Violation 2": {
+                    "Contract Section": "General Travel Provisions",
+                    "Specific Term": "Budget Caps",
+                    "Reason": "The cost estimate for the single trip ($5,000) exceeds the budget cap of $2,500 for a single trip as stated in the contract."
+                },
+                "Violation 3": {
+                    "Contract Section": "Amendment",
+                    "Specific Term": "Amendments to Travel Expense Policy",
+                    "Reason": "The cost estimate does not adhere to the multi-factor adjustment conditions introduced in the amendment. The maximum allowable expense, even considering all multipliers (1.1, 1.2, 1.3), would be $4,158, which is less than the estimated cost of $5,000."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Business development trip to new markets in Africa",
+            "Cost Estimate": "$2,400",
+            "Compliance Status": "Compliant",
+            "Violations": [],
+            "Reasons": [],
+            "Notes": [
+                "The task description aligns with the contract's general travel provisions.",
+                "The cost estimate is within the budget cap of $2,500 for a single trip.",
+                "The task description does not provide enough detail to assess compliance with other specific provisions such as travel class specifications, accommodation standards, and multi-factor adjustments to travel expense policy. Additional information would be needed for a complete analysis."
+            ]
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Product testing in the Sahara Desert during summer",
+            "Cost Estimate": "$3,800",
+            "Compliance Status": "Non-compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Contract Section": "Financial Terms",
+                    "Specific Term": "Total Fee",
+                    "Reason": "The cost estimate of $3,800 for the task exceeds the total fee of $100,000 stipulated in the contract."
+                },
+                "Violation 2": {
+                    "Contract Section": "General Travel Provisions",
+                    "Specific Term": "Budget Caps",
+                    "Reason": "The cost estimate of $3,800 for the task exceeds the single trip budget cap of $2,500 stipulated in the contract."
+                },
+                "Violation 3": {
+                    "Contract Section": "Amendment",
+                    "Specific Term": "Amendments to Travel Expense Policy",
+                    "Reason": "The cost estimate of $3,800 for the task exceeds the maximum allowable expense calculated using the multi-factor adjustments ($2,500 * 1.1 * 1.2 * 1.3 = $4,158) stipulated in the contract amendment."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Quarterly executive strategy meeting in Hawaii",
+            "Cost Estimate": "$4,000",
+            "Compliance Status": "Non-compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Contract Section": "Financial Terms",
+                    "Specific Term": "Total Fee",
+                    "Reason": "The cost estimate of $4,000 for the task exceeds the total fee of $100,000 stipulated in the contract."
+                },
+                "Violation 2": {
+                    "Contract Section": "General Travel Provisions",
+                    "Specific Term": "Budget Caps",
+                    "Reason": "The cost estimate for the single trip ($4,000) exceeds the budget cap of $2,500 for a single trip as stated in the contract."
+                },
+                "Violation 3": {
+                    "Contract Section": "Amendment",
+                    "Specific Term": "Amendments to Travel Expense Policy",
+                    "Reason": "The cost estimate does not adhere to the multi-factor adjustment conditions introduced in the amendment. The maximum allowable expense, considering all multipliers (1.1, 1.2, 1.3), would be $4,158. However, this is only applicable if all conditions (night and weekend travel, seasonal and location-based adjustments, urgency and unscheduled travel surge pricing) are met, which is not specified in the task description."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Humanitarian aid project in a high-risk area",
+            "Cost Estimate": "$6,000",
+            "Compliance Status": "Non-Compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Contract Section": "Object of the Agreement",
+                    "Specific Term": "Contractor Obligations",
+                    "Reason": "The task description does not align with the contractor's obligations as specified in the contract. The contractor is obligated to provide software development services, not humanitarian aid projects."
+                },
+                "Violation 2": {
+                    "Contract Section": "Financial Terms",
+                    "Specific Term": "Total Fee",
+                    "Reason": "The cost estimate for the task exceeds the total fee agreed upon in the contract. The total fee for the contract is USD 100,000, and the cost estimate for this task alone is $6,000, which is not in line with the financial terms of the contract."
+                },
+                "Violation 3": {
+                    "Contract Section": "General Travel Provisions",
+                    "Specific Term": "Budget Caps",
+                    "Reason": "The cost estimate for the task exceeds the budget cap for a single trip. The contract stipulates that a single trip should not exceed USD 2,500, even with the potential for a 20% increase for high-cost locations and a 10% increase during peak seasons, the maximum allowable expense would be $3,300. The cost estimate of $6,000 for this task is in violation of this term."
+                }
+            }
+        }
+    },
+    {
+        "Task Compliance Analysis": {
+            "Task Description": "Internal training session in New York City over a holiday weekend",
+            "Cost Estimate": "$2,800",
+            "Compliance Status": "Non-compliant",
+            "Violations": {
+                "Violation 1": {
+                    "Condition": "Budget Caps",
+                    "Explanation": "The cost estimate of $2,800 exceeds the single trip budget cap of $2,500 as specified in the contract."
+                },
+                "Violation 2": {
+                    "Condition": "Amendments to Travel Expense Policy",
+                    "Explanation": "The task description indicates that the travel is over a holiday weekend. According to the amendment, this should incur a Night and Weekend Travel Multiplier of 1.1. However, this does not seem to have been applied in the cost estimate."
+                },
+                "Violation 3": {
+                    "Condition": "High-Cost Locations",
+                    "Explanation": "New York City is likely to be considered a high-cost location. The contract allows for a budget increase of up to 20% with approval for such locations. However, even with a 20% increase, the budget would be $3,000, which is still less than the cost estimate of $2,800."
+                }
+            }
+        }
+    }
+]

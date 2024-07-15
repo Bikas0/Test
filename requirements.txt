@@ -1,0 +1,8 @@
+openai==1.1.2
+python-dotenv
+flask
+python-docx
+pandas
+streamlit
+openpyxl
+retrying
