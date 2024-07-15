@@ -10,7 +10,7 @@ on:
 
 env:
   HF: ${{ secrets.HF }}
-  AZURE_OPENAI_API_KEY: ${{ secret.AZURE_OPENAI_API_KEY }}
+  AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
 
 jobs:
   deploy:
