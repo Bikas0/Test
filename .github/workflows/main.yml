@@ -1,0 +1,29 @@
+name: Deploy to the HF
+
+on:
+  push:
+    branches:
+      - main
+
+# schedule:
+#   - cron: 
+
+env:
+  HF: ${{ secrets.HF }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Add remote
+        env:
+          HF: ${{ env.HF }}
+        run: git remote add space https://Bikas0:$HF@huggingface.co/spaces/Bikas0/Test
+
+      - name: Push to hub
+        env:
+          HF: ${{ env.HF }}
+        run: git push --force https://Bikas0:$HF@huggingface.co/spaces/Bikas0/Test main
