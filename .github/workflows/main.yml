@@ -23,10 +23,10 @@ jobs:
       - name: Add remote
         env:
           HF: ${{ env.HF }}
-        run: git remote add space https://Bikas0:$HF@huggingface.co/spaces/Bikas0/Test
+        run: git remote add space https://Bikas0:$HF@huggingface.co/spaces/Bikas0/Testing
 
       - name: Push to hub
         env:
           HF: ${{ env.HF }}
         run:
-          git push --force https://Bikas0:$HF@huggingface.co/spaces/Bikas0/Test main
+          git push --force https://Bikas0:$HF@huggingface.co/spaces/Bikas0/Testing main
