@@ -20,6 +20,23 @@ jobs:
         with:
           fetch-depth: 0  # Fetch all history for all branches and tags
 
+      - name: Add README.md
+        run: |
+          echo "---" > README.md
+          echo "title: Your Project Title" >> README.md
+          echo "emoji: 🚀" >> README.md
+          echo "colorFrom: red" >> README.md
+          echo "colorTo: yellow" >> README.md
+          echo "sdk: streamlit" >> README.md
+          echo 'sdk_version: "1.10.0"' >> README.md
+          echo "app_file: app.py" >> README.md
+          echo "pinned: false" >> README.md
+          echo "---" >> README.md
+          echo "" >> README.md
+          echo "# Your Project Title" >> README.md
+          echo "" >> README.md
+          echo "Your project description goes here. Provide an overview of what your project does and any relevant details." >> README.md
+
       - name: Add remote
         env:
           HF: ${{ env.HF }}
@@ -28,4 +45,7 @@ jobs:
       - name: Push to hub
         env:
           HF: ${{ env.HF }}
-        run: git push --force https://Bikas0:$HF@huggingface.co/spaces/Bikas0/Test main
+        run: |
+          git add README.md
+          git commit -m "Add README.md with required configuration"
+          git push --force https://Bikas0:$HF@huggingface.co/spaces/Bikas0/Test main
